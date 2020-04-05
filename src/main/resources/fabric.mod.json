@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "michael",
+  "id": "element",
   "version": "${version}",
 
-  "name": "Michael Mod",
-  "description": "my mod wip",
+  "name": "element cycle",
+  "description": "Repair iron tools with ~magic~",
   "authors": [
     "Michael"
   ],
@@ -14,15 +14,15 @@
   },
 
   "license": "all rights reserved",
-  "icon": "assets/michael/icon.png",
+  "icon": "assets/element/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "michael.SharedInit"
+      "element.SharedInit"
     ],
     "client": [
-      "michael.ClientInit"
+      "element.ClientInit"
     ]
   },
 
